@@ -1,0 +1,212 @@
+Body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+}
+body
+{
+        background: lightblue;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+
+}
+        .container
+        {
+                position: relative;
+                background: #fafcfd;
+                width: 100%;
+                max-width: 1000px;
+                min-height: 1000px;
+                margin: 50px;
+                display: grid;
+                grid-template-columns: 1fr 2fr; 
+                box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+
+        }
+        .container .left_side
+        {
+                position: relative;
+                background: #003147;
+                padding: 40px;
+                
+        }
+        .profileText
+        {
+                position: relative;
+                display: flex;
+                flex-direction: column ;
+                align-items: center;
+                padding-bottom: 20px;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        /* .profileText .imgbx
+        {
+                position: relative;
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                overflow: hidden;
+        
+        }       */
+        img
+        {
+                        align: center;
+                        width: 150px;
+                        height: 175px;
+                        border-radius: 100%;
+        }
+        .profileText h2
+        {
+                color: #fff;
+                font-size: 1.5em;
+                margin-top: 20px;
+                text-transform: uppercase;
+                text-align: center;
+                font-weight: 600;
+                line-height: 1.4em;
+        }
+        .profileText h2 span
+        {
+              font-size: 0.8em;
+              font-weight: 300;
+
+        }
+        .contactInfo
+        {
+                padding-top: 40px;
+
+        }
+        .title
+        {
+                color:#fff;
+                text-transform: uppercase;
+                font-weight: 650;
+                letter-spacing: 1px;
+                margin-bottom: 20px;       
+        }
+        .contactInfo ul
+        {
+                position: relative;
+                color: #e0e4e6;
+        }
+
+        .contactInfo ul li
+        {
+                position: relative;
+                list-style: none;
+                margin: 10px 0;
+                cursor: pointer;
+        }
+        .contactInfo ul li .icon
+        {
+                display: inline-block;
+                width: 30px;
+                font-size: 18px;
+                color: #30a9f4
+        }
+        .contactInfo ul li span
+        {
+                color: #fff;
+                font: width 300;
+        }
+        .education 
+        {
+               padding-top: 40px;
+        }
+        .title
+        {
+                color:#fff;
+                text-transform: uppercase;
+                font-weight: 650;
+                letter-spacing: 1px;
+                margin-bottom: 20px;
+        }
+        .education ul
+        {
+                position: relative;
+
+        }
+        .education ul li
+        {
+                position: relative;
+                list-style: none;
+                margin: 10px 0;
+                cursor: pointer;
+        }
+        .education h5
+        {
+               color: #30a9f4; 
+               font-weight: 500;      
+        }
+        .education h4
+        {
+               color: #e0e4e6; 
+               font-weight: 500;      
+        }
+        .languages
+        { 
+                padding-top: 40px
+        }
+        .title
+        {
+                color:#fff;
+                text-transform: uppercase;
+                font-weight: 650;
+                letter-spacing: 1px;
+                margin-bottom: 20px;
+        }
+        .languages ul
+        {
+                position: relative;
+
+        }
+        .languages ul li
+        {
+                position: relative;
+                list-style: none;
+                margin: 10px 0;
+                cursor: pointer;
+        }
+        .languages h4
+        {
+                color: #e0e4e6; 
+                font-weight: 500;
+        }
+        .container .right_side
+        {
+                
+                position: relative;
+                background: rgb(240, 236, 236);
+                padding: 40px;
+        } 
+         .about
+         {
+                margin-bottom: 50px;
+
+         }
+         .about: :last-child
+         {
+             margin-bottom: px;
+         }
+         .title2
+         {
+                color: #2f5a74;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                margin-bottom: 10px;      
+         }  
+         p
+         {
+                color:rgb(104, 72, 72);
+         }
+         .about .title2 h3
+         {
+                color: #e0e4e6; 
+                font-weight: 500;
+         }  
+         
+         
+
